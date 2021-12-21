@@ -1,0 +1,2 @@
+# Interpreting-the-latent-space-of-GANs-for-semantic-face-editing-
+This project aims to build a controllable Generative Adversarial Network (GAN) that facilitates the control of facial attributes through manipulation of latent space. We have used pre-trained StyleGAN2-ADA to generate photorealistic faces and SVM hyperplanes to interpret it’s latent space. This allowed us to understand the encoding of facial semantics and their disentanglement in the latent space learnt by GAN.
