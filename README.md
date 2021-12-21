@@ -18,4 +18,4 @@ Each hyperplane has an associated normal vector (512-dimensional) n = [w1,w2, ..
 Multiple facial semantics can be edited as zedit = z + α1 ∗ n1 + α2 ∗ n2. If facial semantics are to be edited in the direction opposite to normal vector, negative values of alpha can be used. Performance of SVM hyperplanes is computed on the test set to evaluate the validity of assumptions about latent space.
 
 # Single Attribute Manipulation
-![](Results/filename Smile.jpg)
+![](Results/Smile.JPG)
