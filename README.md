@@ -16,3 +16,6 @@ We have made an assumption that the facial semantics are binary and for each suc
 corresponding to faces with positive and negative facial semantic. These Hyperplanes are found by training SVM classifiers with linear kernels using the labelled dataset containing latent vectors and corresponding facial semantics. Let the latent vector be z = [z1, z2, ..., z512]. Hyperplane found by SVM is w1z1 + w2z2 + ... + w512z512 + w0 = 0.
 Each hyperplane has an associated normal vector (512-dimensional) n = [w1,w2, ...,w512]. Facial semantic corresponding to this normal vector can be edited as zedit = z + α ∗ n.
 Multiple facial semantics can be edited as zedit = z + α1 ∗ n1 + α2 ∗ n2. If facial semantics are to be edited in the direction opposite to normal vector, negative values of alpha can be used. Performance of SVM hyperplanes is computed on the test set to evaluate the validity of assumptions about latent space.
+
+# Single Attribute Manipulation
+![](Results/Smile.jpg)
